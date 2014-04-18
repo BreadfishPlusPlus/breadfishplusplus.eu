@@ -1,4 +1,0 @@
-AddType application/x-xpinstall .xpi
-AddType application/x-chrome-extension .crx
-AddType application/octet-stream .safariextz
-AddType application/x-opera-extension .oex
