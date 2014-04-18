@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+}
+body, html {
+    height:100%;
+    background-color: #4D5460;
+}
+.container {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin: -35px 0 0 -210px;
+
+    .links {
+        position: absolute;
+        top: 21px;
+        right: -100px;
+
+        a {
+            display: block;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 10px;
+            line-height: 1.42857143;
+            text-decoration: none;
+            color: #FFF;
+
+            &:hover {
+                color: #DCDBD9;
+            }
+        }
+    }
+
+    .install {
+        a {
+            float: left;
+            text-align: center;
+            height: 70px;
+            width: 140px;
+            display: inline-block;
+            border: 1px solid #343a45;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: transparent;
+            -webkit-transition: background-color .3s ease-in, -webkit-transform .3s ease-in;
+            -moz-transition:    background-color .3s ease-in, -moz-transform .3s ease-in;
+            -ms-transition:     background-color .3s ease-in, -ms-transform .3s ease-in;
+            -o-transition:      background-color .3s ease-in, -o-transform .3s ease-in;
+            transition:         background-color .3s ease-in, transform .3s ease-in;
+
+            &.chrome {
+                background-image: url('../img/icon-chrome.png');
+                border-right-width: 0;
+
+                &:hover {
+                    background-color: #FFDC00;
+                }
+            }
+            &.firefox {
+                background-image: url('../img/icon-firefox.png');
+                border-right-width: 0;
+
+                &:hover {
+                    background-color: #FF851B;
+                }
+            }
+            &.opera {
+                background-image: url('../img/icon-opera.png');
+
+                &:hover {
+                    background-color: #FF4136;
+                }
+            }
+
+            &:hover {
+                -webkit-transform: scale(1.05);
+                -moz-transform:    scale(1.05);
+                -ms-transform:     scale(1.05);
+                -o-transform:      scale(1.05);
+                transform:         scale(1.05);
+                border-width: 1px;
+            }
+        }
+    }
+}
