@@ -15,7 +15,7 @@ body, html {
     position:absolute;
     top:50%;
     left:50%;
-    margin: -35px 0 0 -210px;
+    margin: -35px 0 0 -280px;
 
     .links {
         position: absolute;
@@ -47,6 +47,7 @@ body, html {
             background-repeat: no-repeat;
             background-position: center;
             background-color: transparent;
+            background-size: 48px;
             -webkit-transition: background-color .3s ease-in, -webkit-transform .3s ease-in;
             -moz-transition:    background-color .3s ease-in, -moz-transform .3s ease-in;
             -ms-transition:     background-color .3s ease-in, -ms-transform .3s ease-in;
@@ -71,9 +72,17 @@ body, html {
             }
             &.opera {
                 background-image: url('../img/icon-opera.png');
+                border-right-width: 0;
 
                 &:hover {
                     background-color: #FF4136;
+                }
+            }
+            &.safari {
+                background-image: url('../img/icon-safari.png');
+
+                &:hover {
+                    background-color: #00a9ec;
                 }
             }
 
