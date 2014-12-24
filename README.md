@@ -1,1 +1,1 @@
-# VERALTET! SIEHE [BreadfishPlusPlus/static](https://github.com/BreadfishPlusPlus/static)
+# VERALTET! SIEHE [BreadfishPlusPlus/wobsite](https://github.com/BreadfishPlusPlus/wobsite)
